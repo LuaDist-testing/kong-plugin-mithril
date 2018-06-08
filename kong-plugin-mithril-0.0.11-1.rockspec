@@ -2,18 +2,18 @@
 
 package = "kong-plugin-mithril"  -- TODO: rename, must match the info in the filename of this rockspec!
                                  -- as a convention; stick to the prefix: `kong-plugin-`
-version = "0.0.10-1"             -- TODO: renumber, must match the info in the filename of this rockspec!
+version = "0.0.11-1"             -- TODO: renumber, must match the info in the filename of this rockspec!
 
 supported_platforms = {"linux", "macosx"}
 -- LuaDist source
 source = {
-  tag = "0.0.10-1",
+  tag = "0.0.11-1",
   url = "git://github.com/LuaDist-testing/kong-plugin-mithril.git"
 }
 -- Original source
 -- source = {
 --   url = "git://github.com/edenlabllc/kong-plugin-mithril",
---   tag = "0.0.10"
+--   tag = "0.0.11"
 -- }
 
 description = {
@@ -24,7 +24,6 @@ description = {
 
 dependencies = {
   "lua-resty-http == 0.11",
-  "dkjson == 2.5",
   "lrexlib-pcre == 2.9.0-1",
   "lua-resty-cookie == 0.1.0-1",
 }
